@@ -1,0 +1,9 @@
+before_install:
+  - sudo apt-get update -qq
+  - sudo apt-get install -qq munin-node
+  - sudo npm install vows
+  - sudo npm install vows -g
+language: node_js
+node_js:
+  - 0.8
+  - 0.6

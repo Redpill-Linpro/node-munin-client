@@ -1,0 +1,22 @@
+{
+  "name": "node-munin-client",
+  "version": "0.0.1",
+  "description": "A Munin Client",
+  "keywords": [
+    "munin",
+    "munin-node"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/redpill-linpro/node-munin-client"
+  },
+  "license": "BSD",
+  "scripts": {
+    "test": "vows test/* --spec",
+    "install": "node-waf configure build"
+  },
+  "devDependencies": {
+    "vows": "0.5.x"
+  }
+}
+
