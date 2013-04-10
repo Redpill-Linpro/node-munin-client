@@ -48,7 +48,7 @@ ts.addBatch({
 ts.addBatch({
   'when asking for metrics from cpu-plugin': {
     topic: function () {
-      mc.fetch('cpu', this.callback);
+      mc.getMetrics('cpu', this.callback);
     },
     'we get metrics in return': function (val, err) {
       assert.isNumber(val.user);
