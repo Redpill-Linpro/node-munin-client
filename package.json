@@ -10,7 +10,7 @@
     "type": "git",
     "url": "https://github.com/redpill-linpro/node-munin-client"
   },
-  "license": "BSD",
+  "license": "MIT",
   "scripts": {
     "test": "vows test/* --spec"
   },
