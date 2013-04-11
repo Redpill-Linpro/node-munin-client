@@ -4,6 +4,14 @@ A Munin-client written in Node.
 
 ## Usage
 
+Install from npm
+
+```bash
+# npm install node-munin-client
+```
+
+Code:
+
 ```javascript
 var muninClient = require('node-munin-client');
 
@@ -77,7 +85,7 @@ mc.quit();
 
 (MIT)
 
-> Copyright (C) 2013 Trygve Vea
+> Copyright (C) 2013 Redpill Linpro AS
 > 
 > Permission is hereby granted, free of charge, to any person obtaining a copy of
 > this software and associated documentation files (the "Software"), to deal in 
